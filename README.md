@@ -103,15 +103,15 @@ volumes:
 ```
 И запустить весь проект, предварительно его пересоздав:
 ```
-docker compose --env-file .env build
-docker compose up
+docker-compose --env-file .env build
+docker-compose up
 ```
 В консоли появится "Telegram servers now send updates to https://your_domain.com. Bot is online". Вы великолепны!
 
 Обновление сертификата через 3 месяца командой (если nginx уже запущен, первую команду пропускаем):
 ```
-docker compose up
-docker compose run --rm certbot renew
+docker-compose up
+docker-compose run --rm certbot renew
 ```
 <br/><br/>
 ## Заметки
