@@ -1,3 +1,7 @@
+# ВНИМАНИЕ! ПРОЕКТ ПЕРЕЕХАЛ НА GITFLIC git@gitflic.ru:solo-it/telegram-nginx-docker-webhook.git
+
+
+
 # Python Telegram бот на webhook в docker на любом VPS/VDS за 3 минуты (nginx, ssl, compose)
 
 ## Основная информация
